@@ -101,21 +101,21 @@ function App() {
           }}>
             {/* explicitly set a visible text color */}
             <h2 style={{ 
-              color: '#000',        // ← ensure this is a dark color
+              color: '#000', 
               marginBottom: 16, 
-              fontSize: '24px',
+              fontSize: '24px', 
               fontWeight: 'bold'
             }}>
-              Congratulations! Your exclusive offer from Chera Home Junction will be delivered to your WhatsApp shortly!
+              Congratulations!
             </h2>
-            {/* <div style={{ 
+            <h4 style={{ 
+              color: '#000',
+              marginBottom: 16, 
               fontSize: '18px', 
-              marginBottom: 24,
-              color: '#333',
-              lineHeight: '1.6'
+              fontWeight: 'normal'
             }}>
               Your exclusive offer from Chera Home Junction will be delivered to your WhatsApp shortly!
-            </div> */}
+            </h4>
             <button onClick={() => setShowCongrats(false)} style={{
               background: '#0a1a4f', 
               color: '#fff', 
